@@ -5,11 +5,18 @@
     font-variation-settings:
       "wdth" 100;
   }
+  *{
+    margin: 0px;
+    padding: 0px;
+
+  }
   /* header */
   .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    /* border: 2px solid red; */
+    /* width: 100%; */
 }
 
 /* nav styles */
@@ -112,17 +119,24 @@ main section{
     padding: 130px 150px;   
     text-align: center;
 }
+.class-description{
+    padding: 30px;
+}
 .about-items{
     display: flex; 
     justify-content: space-around;
     /* flex-direction: column; */
     /* align-items: center; */
+    padding: 30px;
 }
 .item-description{
     font-weight: 600px;
 }
+.section-title{
+    padding: 30px;
+}
 .section-description{
-    padding: 20px;
+    padding-bottom: 30px;
     font-size: 18px;
 }
 /* skill section items */
